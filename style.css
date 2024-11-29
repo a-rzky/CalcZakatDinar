@@ -1,0 +1,117 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.calc-dinar{
+    justify-content: center;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(206, 206, 206);
+    width: 350px;
+}
+
+.calc-dinar h1{
+    text-align: center;
+}
+
+
+
+.container{
+    padding: 10px;
+    width: 300px;  
+}
+
+input{
+    text-align: center;
+    width: 100px;
+    border-style: none;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.kolom-dinar{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+#text1Dinar{
+    padding: 2px 0px;
+}
+
+.button{
+    display: flex;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+.button-dinar{
+    cursor: pointer;
+    margin-left: auto;
+    font-weight: 900;
+    color: white;
+    width: 190px;
+    height: 35px;
+    background-color: rgb(226, 77, 77);
+    border-style: none;
+    border-radius: 5px;
+}
+
+.button-gram{
+    cursor: pointer;
+    margin-left: auto;
+    font-weight: 900;
+    color: white;
+    width: 190px;
+    height: 35px;
+    background-color: rgb(37, 141, 116);
+    border-style: none;
+    border-radius: 5px;
+}
+
+.button-gram:hover{
+    background-color:rgb(15, 69, 57) ;
+}
+   
+
+.button-dinar:hover{
+    background-color: rgb(154, 45, 45);
+}
+
+
+#hasilZakat{
+    padding-left: 14px;
+    padding-top: 5px;
+    width: 185px;
+    border-style: none;
+    border-radius: 5px;
+    height: 25px;
+    background-color: rgb(251, 252, 253);
+
+}
+
+#hasilGram{
+    padding-left: 14px;
+    padding-top: 5px;
+    width: 175px;
+    border-style: none;
+    border-radius: 5px;
+    height: 25px;
+    background-color: rgb(251, 252, 253);
+
+}
+
+.line{
+    height: 1px;
+    background-color: rgb(176, 176, 176);
+    margin-bottom:20px ;
+}
+
+
+.text-sm{
+    font-size: 0.8rem;
+}
+
+
